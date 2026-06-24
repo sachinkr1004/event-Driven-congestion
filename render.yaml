@@ -20,7 +20,7 @@ services:
       - key: FORECAST_URL
         value: https://gridlock-forecasting-engine.onrender.com
 
-  # React
+  # React frontend dashboard
   - type: web
     name: gridlock-dashboard
     runtime: node
